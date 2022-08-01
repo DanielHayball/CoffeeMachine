@@ -1,0 +1,141 @@
+﻿
+& {
+    @large-phone: (min-width: 489px);
+    @tablet: (min-width: 768px);
+    @laptop: (min-width: 1024px);
+
+    @pink: #f73f9c;
+    @blue: #5964e1;
+
+    .home__base {
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .home__background-image {
+        position: absolute;
+        width: 300px;
+        top: 0;
+        left: calc(40% - $width / 2);
+        z-index: 0;
+    }
+
+    .home__coffee-machine {
+        width: 250px;
+        height: 300px;
+        margin: 170px auto 0 auto;
+        background-color: darkgray;
+        border: solid 2px white;
+        border-radius: 8px;
+        position: relative;
+        box-shadow: 0 0 10px white;
+    }
+
+    .coffee-machine__header {
+        width: 100%;
+        margin: 20px 0 0 0;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .coffee-machine__header-free-text {
+        font-size: 28px;
+        margin: 0 20px 0 0;
+        font-family: 'AR DECODE';
+        color: white;
+        text-shadow: 0 0 5px white, 0 0 20px @pink, 0 0 25px @pink, 0 0 30px @pink, 0 0 35px @pink;
+    }
+
+    .coffee-machine__header-drinks-text {
+        font-size: 30px;
+        font-family: 'AR DESTINE';
+        color: #fff;
+        text-shadow: 0 0 5px white, 0 0 20px @blue, 0 0 25px @blue, 0 0 30px @blue, 0 0 35px @blue;
+    }
+
+    .coffee-machine__drink-option-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 20px auto;
+    }
+
+    .coffee-machine__drink-option {
+        width: 62px;
+        height: 62px;
+        margin: 0 10px;
+    }
+
+    .coffee-machine__drink-option-image {
+        width: 100%;
+        border: 2px solid white;
+        border-radius: 8px;
+
+        &:hover {
+            filter: brightness(1.4);
+        }
+    }
+
+    .coffee-machine__on-light {
+        width: 20px;
+        height: 20px;
+        background-color: red;
+        margin: 6px 0 0 10px;
+        border: solid 1px white;
+        border-radius: 50%;
+        box-shadow: 0 0 5px white, 0 0 20px red, 0 0 25px red;
+        transition: 0.5s;
+
+        &.preparing {
+            background-color: green;
+            box-shadow: 0 0 5px white, 0 0 20px green, 0 0 25px green;
+        }
+    }
+
+    .coffee-machine__drink-shoot {
+        background-color: dimgray;
+        height: 76px;
+        width: 80%;
+        margin: 5px auto;
+        border: solid 2px white;
+        border-radius: 8px;
+        overflow: hidden;
+        padding: 4px 0;
+        overflow: hidden;
+    }
+
+    .coffee-machine__drink-shoot-image{
+        display: block;
+        margin: 0 auto;
+        border-radius: 8px;
+        height: 100%;
+        transition: 0.5s;
+
+        &.hide{
+            display: none;
+        }
+    }
+
+    .home__drink-recipe-space {
+        content: "";
+        text-align: center;
+        display: block;
+        width: 250px;
+        margin: 20px 0 0 0;
+        font-size: 28px;
+        font-weight: normal;
+        font-family: Calibri;
+        color: white;
+
+        &.hide {
+            display: none;
+        }
+    }
+}

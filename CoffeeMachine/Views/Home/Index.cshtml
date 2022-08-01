@@ -1,0 +1,56 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@section Scripts {
+    <script src="~/js/site.js" asp-append-version="true"></script>
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/Home/home.css" />
+    <style type="text/css">
+        #mc_embed_signup {
+            clear: left;
+            font: 14px Helvetica,Arial,sans-serif;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="home__base">
+        <img class="home__background-image" src="~/images/art/NeonCoffeeSign.png"/>
+
+        <div class="home__coffee-machine">
+            <p class="coffee-machine__header">
+                <span class="coffee-machine__header-free-text">FREE</span>
+                <span class="coffee-machine__header-drinks-text"> DRINKS</span>
+            </p>
+
+            <div class="coffee-machine__drink-option-container">
+                <div class="coffee-machine__drink-option js-drinks-button" data-drink-type="tea">
+                    <img class="coffee-machine__drink-option-image" loading="lazy" src="~/images/art/LemonTea.jpg"/>
+                </div>
+
+                <div class="coffee-machine__drink-option js-drinks-button" data-drink-type="coffee">
+                    <img class="coffee-machine__drink-option-image" loading="lazy" src="~/images/art/Coffee.jpg"/>
+                </div>
+
+                <div class="coffee-machine__drink-option js-drinks-button" data-drink-type="chocolate">
+                    <img class="coffee-machine__drink-option-image" loading="lazy" src="~/images/art/Chocolate.jpg"/>
+                </div>
+            </div>
+
+            <div class="coffee-machine__on-light"></div>
+
+            <div class="coffee-machine__drink-shoot">
+                <img class="coffee-machine__drink-shoot-image lemon-tea hide" loading="lazy" src="~/images/art/LemonTea.jpg"/>
+                <img class="coffee-machine__drink-shoot-image coffee hide" loading="lazy" src="~/images/art/Coffee.jpg"/>
+                <img class="coffee-machine__drink-shoot-image chocolate hide" loading="lazy" src="~/images/art/Chocolate.jpg"/>
+            </div>
+        </div>
+
+        <p class="home__drink-recipe-space hide">
+        </p>
+
+    </div>
+</body>

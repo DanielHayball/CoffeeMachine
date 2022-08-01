@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAATvQl3fB3l0eBeM468aDOoAAAAAACAAAAAAAQZgAAAAEAACAAAAC7bEHRIUN8UIKntb7Q0L/mK+iL5B0rHTa015jZNkZ1BQAAAAAOgAAAAAIAACAAAADs5xYeKevMk0J6cV3Z3jWCT/GZXlPccLVwE4CqFbYNCYAAAACsNJTiAKi2TdorlEqrWA3UtQk2CfMSE8QLbsr97PltfY+oMDAYcy6TLseTHsRcBjgQPaaR0CRAddXdqYED+fVfyhhjPEK2XpCoaWpjD/eerCfxJPbRrTQ9p3ZAK2G3y9r3qaMnu+I/w7ULYrSHDNueBmGuSejzXjuqgxuj44AsSUAAAACW9BxujbvNM5xcEcX3t0YzoaGNvFl6mbkhncYArFKOpZffiE6HMBF0K1MUdzXJjDTE3fQAhNxNbzy8/K6W4CSa</EncryptedPassword>
+    <_PublishTargetUrl>ftp://waws-prod-am2-265.ftp.azurewebsites.windows.net/site/wwwroot</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>05/13/2021 19:27:44</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>05/13/2021 19:27:44</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.BrowserLink.dll">
+      <publishTime>11/12/2018 17:30:38</publishTime>
+    </File>
+    <File Include="package.json">
+      <publishTime>05/13/2021 20:34:11</publishTime>
+    </File>
+    <File Include="RaptorIsland.deps.json">
+      <publishTime>07/28/2021 16:51:45</publishTime>
+    </File>
+    <File Include="RaptorIsland.dll">
+      <publishTime>07/28/2021 16:51:44</publishTime>
+    </File>
+    <File Include="RaptorIsland.exe">
+      <publishTime>07/28/2021 16:51:44</publishTime>
+    </File>
+    <File Include="RaptorIsland.pdb">
+      <publishTime>07/28/2021 16:51:44</publishTime>
+    </File>
+    <File Include="RaptorIsland.runtimeconfig.json">
+      <publishTime>05/17/2021 20:22:48</publishTime>
+    </File>
+    <File Include="RaptorIsland.Views.dll">
+      <publishTime>07/28/2021 16:51:45</publishTime>
+    </File>
+    <File Include="RaptorIsland.Views.pdb">
+      <publishTime>07/28/2021 16:51:45</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>07/28/2021 16:51:47</publishTime>
+    </File>
+    <File Include="wwwroot/css/Home/home.css">
+      <publishTime>07/15/2021 16:29:23</publishTime>
+    </File>
+    <File Include="wwwroot/css/site.css">
+      <publishTime>05/17/2021 01:30:24</publishTime>
+    </File>
+    <File Include="wwwroot/favicon.ico">
+      <publishTime>05/13/2021 19:27:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/art/Illustration Galli finished.png">
+      <publishTime>05/18/2021 13:01:03</publishTime>
+    </File>
+    <File Include="wwwroot/images/art/Illustration Galli finished_small.jpg">
+      <publishTime>07/15/2021 16:09:51</publishTime>
+    </File>
+    <File Include="wwwroot/images/art/Illustration Outpost finished.png">
+      <publishTime>05/18/2021 13:01:03</publishTime>
+    </File>
+    <File Include="wwwroot/images/art/Illustration Outpost finished_small.jpg">
+      <publishTime>07/15/2021 16:11:07</publishTime>
+    </File>
+    <File Include="wwwroot/images/art/Illustration Raptor finished.png">
+      <publishTime>05/18/2021 13:01:03</publishTime>
+    </File>
+    <File Include="wwwroot/images/art/Illustration Raptor finished_small.jpg">
+      <publishTime>07/15/2021 16:10:43</publishTime>
+    </File>
+    <File Include="wwwroot/images/art/Illustration T. rex finished.png">
+      <publishTime>05/18/2021 13:01:03</publishTime>
+    </File>
+    <File Include="wwwroot/images/art/Illustration T. rex finished_small.jpg">
+      <publishTime>07/15/2021 16:10:19</publishTime>
+    </File>
+    <File Include="wwwroot/images/banners/background.jpg">
+      <publishTime>05/18/2021 19:47:40</publishTime>
+    </File>
+    <File Include="wwwroot/images/banners/background_small.jpg">
+      <publishTime>07/15/2021 16:11:46</publishTime>
+    </File>
+    <File Include="wwwroot/images/banners/GalliBanner.png">
+      <publishTime>05/18/2021 13:01:03</publishTime>
+    </File>
+    <File Include="wwwroot/images/banners/GalliBanner_small.jpg">
+      <publishTime>07/15/2021 16:16:13</publishTime>
+    </File>
+    <File Include="wwwroot/images/banners/OutpostBanner.png">
+      <publishTime>05/18/2021 13:01:03</publishTime>
+    </File>
+    <File Include="wwwroot/images/banners/OutpostBanner_small.jpg">
+      <publishTime>07/15/2021 16:15:55</publishTime>
+    </File>
+    <File Include="wwwroot/images/banners/PriceBanner.png">
+      <publishTime>05/18/2021 13:01:03</publishTime>
+    </File>
+    <File Include="wwwroot/images/banners/RaptorBanner.png">
+      <publishTime>05/18/2021 13:01:04</publishTime>
+    </File>
+    <File Include="wwwroot/images/banners/RaptorBanner_small.jpg">
+      <publishTime>07/15/2021 16:15:30</publishTime>
+    </File>
+    <File Include="wwwroot/images/banners/RexBanner.png">
+      <publishTime>05/18/2021 13:01:04</publishTime>
+    </File>
+    <File Include="wwwroot/images/banners/RexBanner_small.jpg">
+      <publishTime>07/15/2021 16:12:15</publishTime>
+    </File>
+    <File Include="wwwroot/images/logos/kickstarter-logo-green.png">
+      <publishTime>05/18/2021 13:01:04</publishTime>
+    </File>
+    <File Include="wwwroot/images/logos/RaptorIslandLogo.png">
+      <publishTime>05/18/2021 13:01:04</publishTime>
+    </File>
+    <File Include="wwwroot/images/mockbox/Cards_thin.jpg">
+      <publishTime>07/20/2021 10:10:03</publishTime>
+    </File>
+    <File Include="wwwroot/images/mockbox/FINAL_MOCK_THIN.jpg">
+      <publishTime>07/22/2021 19:04:19</publishTime>
+    </File>
+    <File Include="wwwroot/images/mockbox/MockBox_Cards_2Thin.jpg">
+      <publishTime>05/18/2021 13:01:04</publishTime>
+    </File>
+    <File Include="wwwroot/images/mockbox/MockBox_Cards_2Thin.png">
+      <publishTime>05/18/2021 13:01:04</publishTime>
+    </File>
+    <File Include="wwwroot/images/mockbox/MockBox_Cards_3.jpg">
+      <publishTime>05/18/2021 13:01:04</publishTime>
+    </File>
+    <File Include="wwwroot/images/mockbox/MockBox_Cards_3.png">
+      <publishTime>05/18/2021 13:01:04</publishTime>
+    </File>
+    <File Include="wwwroot/images/mockbox/MockBox_Cards_3RaptorThin.jpg">
+      <publishTime>05/18/2021 13:01:04</publishTime>
+    </File>
+    <File Include="wwwroot/images/mockbox/MockBox_Cards_3RaptorThin.png">
+      <publishTime>05/18/2021 13:01:04</publishTime>
+    </File>
+    <File Include="wwwroot/images/mockbox/Raptor_thin.jpg">
+      <publishTime>07/20/2021 10:06:50</publishTime>
+    </File>
+    <File Include="wwwroot/images/rex/parax-rex-background.png">
+      <publishTime>05/18/2021 13:01:04</publishTime>
+    </File>
+    <File Include="wwwroot/images/rex/parax-rex-background_small.jpg">
+      <publishTime>07/15/2021 16:17:03</publishTime>
+    </File>
+    <File Include="wwwroot/images/rex/parax-rex-fore.png">
+      <publishTime>05/18/2021 13:01:04</publishTime>
+    </File>
+    <File Include="wwwroot/images/rex/parax-rex-mid.png">
+      <publishTime>05/18/2021 13:01:04</publishTime>
+    </File>
+    <File Include="wwwroot/images/rex/parax-rex-mid_small.jpg">
+      <publishTime>07/15/2021 16:17:25</publishTime>
+    </File>
+    <File Include="wwwroot/images/rex/parax-rex-mid_small.png">
+      <publishTime>07/15/2021 16:28:50</publishTime>
+    </File>
+    <File Include="wwwroot/js/site.js">
+      <publishTime>05/13/2021 19:27:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css">
+      <publishTime>05/13/2021 19:27:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map">
+      <publishTime>05/13/2021 19:27:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css">
+      <publishTime>05/13/2021 19:27:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map">
+      <publishTime>05/13/2021 19:27:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css">
+      <publishTime>05/13/2021 19:27:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map">
+      <publishTime>05/13/2021 19:27:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css">
+      <publishTime>05/13/2021 19:27:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map">
+      <publishTime>05/13/2021 19:27:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.css">
+      <publishTime>05/13/2021 19:27:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.css.map">
+      <publishTime>05/13/2021 19:27:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css">
+      <publishTime>05/13/2021 19:27:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map">
+      <publishTime>05/13/2021 19:27:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js">
+      <publishTime>05/13/2021 19:27:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map">
+      <publishTime>05/13/2021 19:27:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js">
+      <publishTime>05/13/2021 19:27:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map">
+      <publishTime>05/13/2021 19:27:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.js">
+      <publishTime>05/13/2021 19:27:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.js.map">
+      <publishTime>05/13/2021 19:27:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.min.js">
+      <publishTime>05/13/2021 19:27:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map">
+      <publishTime>05/13/2021 19:27:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/LICENSE">
+      <publishTime>05/13/2021 19:27:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js">
+      <publishTime>05/13/2021 19:27:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js">
+      <publishTime>05/13/2021 19:27:45</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt">
+      <publishTime>05/13/2021 19:27:45</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.js">
+      <publishTime>05/13/2021 19:27:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.min.js">
+      <publishTime>05/13/2021 19:27:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.js">
+      <publishTime>05/13/2021 19:27:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.min.js">
+      <publishTime>05/13/2021 19:27:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/LICENSE.md">
+      <publishTime>05/13/2021 19:27:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.js">
+      <publishTime>05/13/2021 19:27:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.min.js">
+      <publishTime>05/13/2021 19:27:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.min.map">
+      <publishTime>05/13/2021 19:27:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/LICENSE.txt">
+      <publishTime>05/13/2021 19:27:44</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
